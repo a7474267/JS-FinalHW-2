@@ -86,7 +86,7 @@ function render(data) {
         <div class="circle d-flex justify-content-center align-items-center flex-column ${item.status}C bg ${item.status}F">
           <p class="fs32">${item.bmi}</p>
           <p class="fs14">BMI</p>
-          <img src="../images/icons_loop.png" alt="" class="circleImg ${item.status}B"/>
+          <img src="./images/icons_loop.png" alt="" class="circleImg ${item.status}B"/>
         </div>`;
     });
     content.innerHTML = str;
